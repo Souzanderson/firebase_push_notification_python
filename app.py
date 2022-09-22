@@ -21,5 +21,5 @@ agent = MessagePushNotification(topic="bundy_cwb_lines", title= "Mensagem direci
 
 # @param message_agent => objeto contendo a mensagem para envio
 # @param credentials_location => arquivo de autenticação com o servidor de push notification (padrão firebase_key.json)
-# @def send => envia a mensagem usando oa rquivo de configuração 
+# @def send => envia a mensagem usando o arquivo de configuração 
 PushNotification(message_agent = agent).send()
