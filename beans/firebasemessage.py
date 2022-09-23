@@ -28,7 +28,8 @@ class PushNotification:
     
     def __authenticate__(self):
         cred = credentials.Certificate(self.__credentials)
-        firebase_admin.initialize_app(cred)
+        try: firebase_admin.get_app()
+        except: firebase_admin.initialize_app(cred) 
         
     
     def send(self):

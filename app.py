@@ -23,3 +23,22 @@ agent = MessagePushNotification(topic="system", title= "Sistema!", body= "Existe
 # @param credentials_location => arquivo de autenticação com o servidor de push notification (padrão firebase_key.json)
 # @def send => envia a mensagem usando o arquivo de configuração 
 PushNotification(message_agent = agent, credentials_location="test_firebase_key.json").send()
+
+agent = MessagePushNotification(topic="system", title= "Sistema!", body= "Existem n novas ocorrências aguardando solução...")
+
+# @param message_agent => objeto contendo a mensagem para envio
+# @param credentials_location => arquivo de autenticação com o servidor de push notification (padrão firebase_key.json)
+# @def send => envia a mensagem usando o arquivo de configuração 
+PushNotification(message_agent = agent, credentials_location="test_firebase_key.json").send()
+agent = MessagePushNotification(topic="system", title= "Sistema!", body= "Existem n novas ocorrências aguardando solução...")
+
+# @param message_agent => objeto contendo a mensagem para envio
+# @param credentials_location => arquivo de autenticação com o servidor de push notification (padrão firebase_key.json)
+# @def send => envia a mensagem usando o arquivo de configuração 
+PushNotification(message_agent = agent, credentials_location="test_firebase_key.json").send()
+agent = MessagePushNotification(topic="system", title= "Sistema!", body= "Existem n novas ocorrências aguardando solução...")
+
+# @param message_agent => objeto contendo a mensagem para envio
+# @param credentials_location => arquivo de autenticação com o servidor de push notification (padrão firebase_key.json)
+# @def send => envia a mensagem usando o arquivo de configuração 
+PushNotification(message_agent = agent, credentials_location="test_firebase_key.json").send()
